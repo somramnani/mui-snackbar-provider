@@ -6,15 +6,15 @@ A simple and reusable way to display snackbars using [Material-UI (v5)](https://
 
 ## Installation
 
-````shell
+```shell
 npm install mui-snackbar-provider
 ```
 
 Or with yarn:
 
-```bash
+```shell
 yarn add mui-snackbar-provider
-````
+```
 
 ## Usage
 
@@ -24,7 +24,6 @@ Wrap your application (or router) with the SnackbarProvider and include the Posi
 import {
   SnackbarProvider,
   PositionedSnackbar,
-  useSnackbar,
 } from "mui-snackbar-provider";
 
 function App() {
@@ -60,10 +59,10 @@ const MyComponent = () => {
 
 The snackbar uses the <Alert /> component from MUI to support different message severities:
 
-"success"
-"error"
-"info"
-"warning"
+- "success"
+- "error"
+- "info"
+- "warning"
 These map directly to the severity prop in MUI's <Alert>.
 
 ## Motivation
@@ -93,6 +92,4 @@ const Example = () => {
 };
 ```
 
-## Liscense
 
-MIT @ Som Ramnani
