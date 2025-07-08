@@ -1,0 +1,23 @@
+{
+  "name": "mui-snackbar-provider",
+  "version": "1.0.0",
+  "description": "Reusable Snackbar provider using MUI v5",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r src/* dist/ && cp index.js dist/"
+  },
+  "keywords": [
+    "mui",
+    "snackbar",
+    "react",
+    "provider"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "@mui/material": "^5.0.0"
+  }
+}
