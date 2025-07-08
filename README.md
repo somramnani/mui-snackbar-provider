@@ -69,9 +69,9 @@ These map directly to the severity prop in MUI's <Alert>.
 
 Snackbars are best triggered by user interaction or async events (like API calls). This package makes it easy to:
 
-Trigger snackbars from anywhere in your component tree
-Display consistent styling using Material-UI's Alert system
-Avoid repetitive boilerplate across projects
+- Trigger snackbars from anywhere in your component tree
+- Display consistent styling using Material-UI's Alert system
+- Avoid repetitive boilerplate across projects
 
 ## Example
 
