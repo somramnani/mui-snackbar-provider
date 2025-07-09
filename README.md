@@ -29,8 +29,7 @@ import {
 function App() {
   return (
     <SnackbarProvider>
-      <YourApp />
-      <PositionedSnackbar />
+      <App />
     </SnackbarProvider>
   );
 }

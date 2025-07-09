@@ -1,4 +1,5 @@
-import React, { createContext, useState } from "react";
+import { createContext, useState } from "react";
+import PositionedSnackbar from "./PositionedSnackbar";
 
 export const SnackbarContext = createContext();
 
@@ -22,6 +23,7 @@ const SnackbarProvider = ({ children }) => {
       value={{ message, open, type, closeSnackbar, showSnackbar }}
     >
       {children}
+      <PositionedSnackbar />
     </SnackbarContext.Provider>
   );
 };

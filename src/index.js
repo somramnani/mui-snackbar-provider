@@ -1,3 +1,3 @@
-export { default as SnackbarProvider } from "./src/SnackbarProvider";
-export { default as useSnackbar } from "./src/useSnackbar";
-export { default as PositionedSnackbar } from "./src/PositionedSnackbar";
+export { default as SnackbarProvider } from "./SnackbarProvider";
+export { default as useSnackbar } from "./useSnackbar";
+export { default as PositionedSnackbar } from "./PositionedSnackbar";
