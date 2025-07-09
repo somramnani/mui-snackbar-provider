@@ -21,10 +21,7 @@ yarn add mui-snackbar-provider
 Wrap your application (or router) with the SnackbarProvider and include the PositionedSnackbar component once at the root level.
 
 ```js
-import {
-  SnackbarProvider,
-  PositionedSnackbar,
-} from "mui-snackbar-provider";
+import { SnackbarProvider } from "mui-snackbar-provider";
 
 function App() {
   return (
@@ -62,7 +59,7 @@ The snackbar uses the <Alert /> component from MUI to support different message 
 - "error"
 - "info"
 - "warning"
-These map directly to the severity prop in MUI's <Alert>.
+  These map directly to the severity prop in MUI's <Alert>.
 
 ## Motivation
 
@@ -90,5 +87,3 @@ const Example = () => {
   return <button onClick={handleSave}>Save</button>;
 };
 ```
-
-
