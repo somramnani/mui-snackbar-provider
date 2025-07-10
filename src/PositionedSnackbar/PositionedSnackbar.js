@@ -1,5 +1,5 @@
 import { Snackbar, Alert } from "@mui/material";
-import useSnackbar from "./useSnackbar";
+import useSnackbar from "../useSnackbar";
 
 const PositionedSnackbar = () => {
   const { message, type, open, closeSnackbar } = useSnackbar();
