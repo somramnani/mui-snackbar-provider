@@ -1,6 +1,6 @@
 # MUI Snackbar Provider
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) ![npm](https://img.shields.io/npm/v/mui-snackbar-provider)
 
 A simple and reusable way to display snackbars using [Material-UI (v5)](https://mui.com) with React Context and hooks.
 
