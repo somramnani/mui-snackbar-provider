@@ -18,6 +18,12 @@
   ],
   "author": "Som Ramnani <som.ramnani@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "homepage": "https://github.com/somramnani/mui-snackbar-provider#readme",
   "peerDependencies": {
     "@emotion/react": "^11.11.1",
