@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import PositionedSnackbar from "./PositionedSnackbar";
+import PositionedSnackbar from "./PositionedSnackbar/PositionedSnackbar";
 
 export const SnackbarContext = createContext();
 
