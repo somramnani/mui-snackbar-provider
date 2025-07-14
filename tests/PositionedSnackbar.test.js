@@ -1,13 +1,11 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import PositionedSnackbar from "./PositionedSnackbar";
+import PositionedSnackbar from "PositionedSnackbar";
+import useSnackbar from "useSnackbar";
 
-// Mock useSnackbar
-jest.mock("../useSnackbar", () => ({
+jest.mock("useSnackbar", () => ({
   __esModule: true,
   default: jest.fn(),
 }));
-
-import useSnackbar from "../useSnackbar";
 
 describe("PositionedSnackbar", () => {
   it("renders with message and severity", () => {
