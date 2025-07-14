@@ -9,7 +9,10 @@
     "test": "jest --coverage",
     "coverage:upload": "codecov"
   },
-  "repository": "https://github.com/somramnani/mui-snackbar-provider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somramnani/mui-snackbar-provider.git"
+  },
   "keywords": [
     "mui",
     "snackbar",
