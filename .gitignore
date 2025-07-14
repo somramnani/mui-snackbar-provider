@@ -2,7 +2,10 @@
 
 # dependencies
 /node_modules
+/tests/node_modules
 
 # files
 /Notes.md
 /lib
+
+coverage/

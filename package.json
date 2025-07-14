@@ -1,6 +1,9 @@
 {
   "name": "mui-snackbar-provider",
   "version": "1.0.1",
+  "workspaces": [
+    "tests"
+  ],
   "description": "Reusable Snackbar provider using MUI v5",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -37,19 +40,9 @@
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.0",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^14.6.1",
-    "jest": "^30.0.4",
-    "jest-environment-jsdom": "^30.0.4",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "babel-plugin-module-resolver": "^5.0.2"
   },
   "dependencies": {
-    "codecov": "^3.8.3"
+    "jest": "^30.0.4"
   }
 }
