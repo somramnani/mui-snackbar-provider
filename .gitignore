@@ -5,6 +5,8 @@
 
 # files
 Notes.md
+.DS_Store
+
 
 # folders
 /coverage
