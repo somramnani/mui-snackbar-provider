@@ -10,6 +10,7 @@ const PositionedSnackbar = () => {
       anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
       autoHideDuration={5000}
       onClose={closeSnackbar}
+      data-testid="snackbar"
     >
       <Alert
         onClose={closeSnackbar}

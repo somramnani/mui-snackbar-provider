@@ -44,7 +44,8 @@ describe("PositionedSnackbar", () => {
     });
 
     render(<PositionedSnackbar />);
-    fireEvent.click(screen.getByRole("button")); // Close icon
+
+    fireEvent.click(screen.getByRole("button"));
     expect(closeSnackbarMock).toHaveBeenCalled();
   });
 });
