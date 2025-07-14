@@ -6,7 +6,7 @@
   "module": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "jest",
+    "test": "jest --coverage",
     "coverage:upload": "codecov"
   },
   "repository": "https://github.com/somramnani/mui-snackbar-provider",

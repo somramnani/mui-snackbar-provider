@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import PositionedSnackbar from "PositionedSnackbar/PositionedSnackbar";
+import PositionedSnackbar from "PositionedSnackbar";
 import useSnackbar from "useSnackbar";
 
 jest.mock("useSnackbar", () => ({
