@@ -1,6 +1,6 @@
 module.exports = {
   testEnvironment: "jsdom",
-  setupFilesAfterEnv: ["./setupTest.js"],
+  setupFilesAfterEnv: ["./tests/utils/setupTest.js"],
   collectCoverage: true,
   coverageDirectory: "./coverage",
   coverageReporters: ["json", "lcov", "text"],

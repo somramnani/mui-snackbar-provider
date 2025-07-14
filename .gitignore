@@ -4,5 +4,8 @@
 /node_modules
 
 # files
-/Notes.md
+Notes.md
+
+# folders
+/coverage
 /lib
