@@ -5,9 +5,11 @@
   "main": "lib/index.js",
   "module": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "babel src -d lib --ignore '**/*.stories.*','src/stories'",
     "test": "jest --coverage",
-    "coverage:upload": "codecov"
+    "coverage:upload": "codecov",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "repository": {
     "type": "git",
@@ -43,14 +45,18 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.0",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/react-webpack5": "^9.0.17",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "jest": "^30.0.4",
     "jest-environment-jsdom": "^30.0.4",
+    "prop-types": "^15.8.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "storybook": "^9.0.17"
   },
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.27.1",

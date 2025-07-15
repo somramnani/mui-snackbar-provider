@@ -8,3 +8,6 @@ Notes.md
 # folders
 /coverage
 /lib
+
+*storybook.log
+storybook-static
