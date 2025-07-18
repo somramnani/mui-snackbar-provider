@@ -3,7 +3,11 @@ module.exports = {
   setupFilesAfterEnv: ["./tests/utils/setupTest.js"],
   moduleDirectories: ["node_modules", "src"],
   collectCoverage: true,
-  collectCoverageFrom: ["src/**/*.{js,jsx}", "!src/index.js"],
+  collectCoverageFrom: [
+    "src/**/*.{js,jsx}",
+    "!src/index.js",
+    "!src/stories/**",
+  ],
   coverageDirectory: "./coverage",
   coverageReporters: ["json", "lcov", "text"],
   coverageThreshold: {

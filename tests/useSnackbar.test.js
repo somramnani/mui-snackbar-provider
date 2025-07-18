@@ -1,6 +1,5 @@
 import { renderHook } from "@testing-library/react";
 import useSnackbar from "useSnackbar";
-import { SnackbarProvider } from "SnackbarProvider";
 
 describe("useSnackbar hook", () => {
   it("throws an error when used outside SnackbarProvider", () => {
